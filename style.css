@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+      font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(220deg, white, rgb(173, 186, 105), white);
+}
+
+#name {
+    margin-bottom: 10vh;
+    font-size: 5vw;
+    color: rgb(79, 82, 3);
+}
+
+#main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#first_row,
+#second_row,
+#third_row {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+
+}
+
+.my {
+    font-size: 17vmin;
+    cursor: pointer;
+    background-color: rgb(254, 168, 87);
+    width: 20vw;
+    height: 20vh;
+    border-radius: 5vw;
+    outline: none;
+    color: rgb(155, 26, 0);
+    border: 0.4vw solid rgb(231, 133, 6);
+}
