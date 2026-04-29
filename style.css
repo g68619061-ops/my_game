@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: linear-gradient(220deg, white, rgb(173, 186, 105), white); */
+}
+
+#name {
+    margin-bottom: 10vh;
+    font-size: 5vw;
+    color: rgb(79, 82, 3);
+}
+
+#main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#first_row,
+#second_row,
+#third_row {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+
+}
+
+.my {
+
+    font-size: 17vmin;
+    cursor: pointer;
+    background: transparent;
+    /* background-color: rgb(254, 168, 87); */
+    width: 20vw;
+    height: 20vh;
+    border-radius: 5vw;
+    outline: none;
+    color: rgb(155, 26, 0);
+    border: 0.4vw solid rgb(231, 133, 6);
+}
+
+
+.pop_up {
+    position: absolute;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid blue;
+    border-radius: 10vw;
+    width: 90vw;
+    height: 30vh;
+    font-size: 10vw;
+    color: rgb(61, 5, 75);
+    background-color: rgb(87, 180, 243), white;
+    box-shadow: 1vw 1vh 5vh rgb(36, 134, 255);
+}
+
+
+video {
+    position: absolute;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
