@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Playwrite DE SAS", cursive;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(220deg, white, rgb(45, 150, 255));
+    }
+
+    #name {
+        /* display: none; */
+        margin-top: -20vh;
+        text-align: center;
+        font-size: 7vw;
+        color: rgb(46, 144, 214);
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #first_row,
+    #second_row,
+    #third_row {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        width: 70vw;
+
+    }
+
+    .my {
+        font-size: 10vw;
+        cursor: pointer;
+        background-color: rgb(87, 162, 254);
+        width: 20vw;
+        height: 10vh;
+        border-radius: 5vw;
+        outline: none;
+        color: rgb(255, 255, 255);
+        border: 0.4vw solid rgb(9, 61, 174);
+    }
+
+
+    .pop_up {
+        padding: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.2vw solid blue;
+        border-radius: 10vw;
+        width: 90vw;
+        height: 30vh;
+        font-size: 10vw;
+        color: rgb(79, 13, 141);
+        background-color: rgb(87, 180, 243), white;
+        box-shadow: 1vw 1vh 5vh rgb(36, 134, 255);
+        animation-name: pop;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes pop {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}
